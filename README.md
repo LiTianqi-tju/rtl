@@ -28,7 +28,6 @@
 | **clk** | In | 1 | **System Clock**. 系统主时钟。 |
 | **rst_n** | In | 1 | **System Reset**. 异步复位，低电平有效。 |
 | **start_trig_n** | In | 1 | **Handover Trigger**. 切换触发信号 (Active Low)。
-
 • **1**: 系统保持 IDLE 或触发回切序列。
 • **0**: 启动 Handover 倒计时窗口。
 *注：RTL 需对此信号做 2 级同步及去抖处理。* |
